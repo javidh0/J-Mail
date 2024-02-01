@@ -27,8 +27,8 @@ async function api(token){
     
 }
 
-app.listen(1729, () => {
-    console.log("server running.. on 1729");
+app.listen(1730, () => {
+    console.log("server running.. on 1730");
 });
 
 app.get('/', (req, res) => {
