@@ -36,7 +36,7 @@ const app = express();
 async function api(token){
     console.log('api');
     const response = await axios.get(
-        'https://gmail.googleapis.com/gmail/v1/users/mohammedjavidhedu@gmail.com/profile',
+        'https://gmail.googleapis.com/gmail/v1/users/mohammedjavidhedu@gmail.com/messages',
         {
             headers: {
                 authorization : "Bearer "+token,
@@ -44,7 +44,6 @@ async function api(token){
         }
     );
     console.log(response.data);
-    
 }
 
 app.listen(1729, () => {
