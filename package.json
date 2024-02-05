@@ -4,6 +4,7 @@
   "description": "e-mail service on top GMail",
   "main": "index.js",
   "module": "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +21,7 @@
     "axios": "^1.6.7",
     "express": "^4.18.2",
     "googleapis": "^105.0.0",
+    "open": "^10.0.3",
     "passport-google-oauth20": "^2.0.0"
   }
 }
